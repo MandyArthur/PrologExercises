@@ -21,5 +21,16 @@ fly(Airline, From, To):-
 	member(From, Route), 
 	member(To, Route). 
 
+% ?- fly(Airline, london, sydney).
+% Airline = ba ;
+% Airline = qf ;
+% false. 
+	
+% ?- member(Element, [perth, harare, singapre, london]). 
+% Element = perth ;
+% Element = harare ;
+% Element = singapre ;
+% Element = london.
+
 
 
