@@ -1,0 +1,6 @@
+% Problem 211
+
+succeeded(bush, reagan). 
+succeeded(reagan, carter).
+succeeded(carter, ford).
+succeeded(ford, nixon).
